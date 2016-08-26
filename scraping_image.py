@@ -39,5 +39,13 @@ def main():
     resulturl = getDownloadList(args.url)
     download(resulturl, args.out, args.outFname)
 
+def downloadImageByUrl(url='http://www.yahoo.co.jp', output='output', outFname='output'):
+    resulturl = getDownloadList(url)
+    download(resulturl, output, outFname)
+
 if __name__ == "__main__":
     main()
+else:
+    
+    
+
