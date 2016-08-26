@@ -45,7 +45,6 @@ def downloadImageByUrl(url='http://www.yahoo.co.jp', output='output', outFname='
 
 if __name__ == "__main__":
     main()
-else:
-    
-    
 
+
+    
